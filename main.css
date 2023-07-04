@@ -1,0 +1,52 @@
+html {
+    display: flex;
+    justify-content: center;
+    background: #F9F0DF;
+    color: #8C8A95;
+}
+
+body {
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px;
+    width: 900px;
+}
+
+a, a:visited {
+    transition: 0.3s;
+    color: #8C8A95;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #626168;
+    font-weight: 800;
+}
+
+a:active {
+    color: #4559a4;
+}
+
+.uwu {
+    color: #8a6088
+}
+
+@media (max-width: 900px)  {
+     body {
+        width: 720px
+    }
+}
+
+@media (max-width: 720px)  {
+     body {
+        width: 100%
+    }
+}
+
+@media (max-width: 480px)  {
+     .ty {
+        margin-bottom: 8px;
+    }
+}
